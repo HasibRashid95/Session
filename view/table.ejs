@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+ <meta charset="utf-8">
+ <title>List</title>
+</head>
+<body>
+ <table>
+    <tr>
+      <th>Cookies</th>
+    </tr>
+   
+        <% for(let i of list) { %>
+        <tr> <td> <%= i %></td></tr>
+            <% }  %> 
+    
+  </table>
+ <a href="/add">Add Cookies</a>
+</body>
+</html>
